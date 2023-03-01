@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_halc"
+    android:layout_height="match_parent"
+    tools:context=".teijw.wqwsa.Oiwuwygstff">
+
+    <ImageView
+        android:id="@+id/im_1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.120000005"
+        app:srcCompat="@drawable/halc_main" />
+
+    <ImageView
+        android:id="@+id/im_2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/im_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toEndOf="@+id/im_1"
+        app:layout_constraintTop_toTopOf="@+id/im_1"
+        app:srcCompat="@drawable/halc_main" />
+
+    <ImageView
+        android:id="@+id/im_3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/im_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toEndOf="@+id/im_2"
+        app:layout_constraintTop_toTopOf="@+id/im_2"
+        app:srcCompat="@drawable/halc_main" />
+
+    <ImageView
+        android:id="@+id/im_4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/im_1"
+        app:layout_constraintStart_toStartOf="@+id/im_1"
+        app:layout_constraintTop_toBottomOf="@+id/im_1"
+        app:srcCompat="@drawable/halc_main" />
+
+    <ImageView
+        android:id="@+id/im_5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toEndOf="@+id/im_2"
+        app:layout_constraintStart_toStartOf="@+id/im_2"
+        app:layout_constraintTop_toTopOf="@+id/im_4"
+        app:srcCompat="@drawable/halc_main" />
+
+    <ImageView
+        android:id="@+id/im_6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toEndOf="@+id/im_3"
+        app:layout_constraintStart_toStartOf="@+id/im_3"
+        app:layout_constraintTop_toTopOf="@+id/im_5"
+        app:srcCompat="@drawable/halc_main" />
+
+    <ImageView
+        android:id="@+id/im_7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/im_4"
+        app:layout_constraintStart_toStartOf="@+id/im_4"
+        app:layout_constraintTop_toBottomOf="@+id/im_4"
+        app:srcCompat="@drawable/halc_main" />
+
+    <ImageView
+        android:id="@+id/im_8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/im_7"
+        app:layout_constraintEnd_toEndOf="@+id/im_5"
+        app:layout_constraintStart_toStartOf="@+id/im_5"
+        app:layout_constraintTop_toTopOf="@+id/im_7"
+        app:srcCompat="@drawable/halc_main" />
+
+    <ImageView
+        android:id="@+id/im_9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/im_8"
+        app:layout_constraintEnd_toEndOf="@+id/im_6"
+        app:layout_constraintStart_toStartOf="@+id/im_6"
+        app:layout_constraintTop_toTopOf="@+id/im_8"
+        app:srcCompat="@drawable/halc_main" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="@font/halc_bld"
+        android:textSize="25sp"
+        android:text="Calculating final results..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im_8"
+        app:layout_constraintVertical_bias="0.32999998" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_halc"
+    android:layout_height="match_parent"
+    tools:context=".teijw.nbhjgfh.Howowksijhuxcgy">
+
+    <ImageView
+        android:id="@+id/im_1_sec"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/halc_it_2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Launch bonus boxes"
+        android:fontFamily="@font/halc_bld"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/im_2_sec"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/im_1_sec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/im_1_sec"
+        app:srcCompat="@drawable/halc_it_1" />
+
+    <ImageView
+        android:id="@+id/im_3_sec"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/im_1_sec"
+        app:layout_constraintStart_toStartOf="@+id/im_1_sec"
+        app:layout_constraintTop_toBottomOf="@+id/im_1_sec"
+        app:srcCompat="@drawable/halc_it_6" />
+
+    <TextView
+        android:id="@+id/tv_trs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Treasure bonus : x2"
+        android:textSize="30sp"
+        android:fontFamily="@font/halc_bld"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/im_3_sec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im_1_sec" />
+
+    <ImageView
+        android:id="@+id/im_4_sec"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/im_3_sec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/im_3_sec"
+        app:srcCompat="@drawable/halc_it_8" />
+
+    <Button
+        android:id="@+id/b_launch"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/halc_bld"
+        android:layout_marginTop="50dp"
+        android:text="Launch"
+        android:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im_3_sec" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/udowoisa">
+
+    <fragment
+        android:id="@+id/udowoisa"
+        android:name="com.tocaboca.tocalifeworldt.teijw.isdoko.Gfokvichu"
+        android:label="vijciods"
+        tools:layout="@layout/gsdcxcxuivuhd" >
+        <action
+            android:id="@+id/woqosxz"
+            app:destination="@id/vofkidsjihuwsa" />
+    </fragment>
+    <fragment
+        android:id="@+id/aaouggidi"
+        android:name="com.tocaboca.tocalifeworldt.teijw.fdgf.Swppqpsokxzc"
+        android:label="zppzoxozijs"
+        tools:layout="@layout/kiusyttttsrdyws" >
+        <action
+            android:id="@+id/jucioxiosasw"
+            app:destination="@id/sppvocijds" />
+    </fragment>
+    <fragment
+        android:id="@+id/usisooaow"
+        android:name="com.tocaboca.tocalifeworldt.teijw.wqwsa.Vowiwushd"
+        android:label="mxkkziiuhddw"
+        tools:layout="@layout/qpwoksijxuxczs" />
+    <fragment
+        android:id="@+id/sppvocijds"
+        android:name="com.tocaboca.tocalifeworldt.teijw.isdoko.Eqoqowijsdx"
+        android:label="hxtxrrztud"
+        tools:layout="@layout/ncjutdtdrsw" >
+        <action
+            android:id="@+id/kmcxmjydgytf"
+            app:destination="@id/usisooaow" />
+    </fragment>
+    <fragment
+        android:id="@+id/vofkidsjihuwsa"
+            android:name="com.tocaboca.tocalifeworldt.teijw.isdoko.Koolslsllsixihj"
+        android:label="doqooqoqiwuhsa">
+        <action
+            android:id="@+id/noowiwiiwuhsaygd"
+            app:destination="@id/aaouggidi" />
+    </fragment>
+</navigation>

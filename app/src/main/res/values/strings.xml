@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Halcyon Secrets</string>
+    <string name="facebook_client_token">2cf499763c1b8331c5542989c80cd35c</string>
+    <string name="camera_permission_granted_txt">Permission granted</string>
+    <string name="facebook_app_id">867675471002899</string>
+    <string name="camera_permission_denied_txt">Permission denied</string>
+    <string name="cannot_open_file_chooser_txt">Can not open file chooser</string>
+    <string name="fb_login_protocol_scheme">fb867675471002899</string>
+
+
+</resources>

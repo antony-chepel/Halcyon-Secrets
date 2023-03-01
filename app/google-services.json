@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "781876441407",
+    "project_id": "halcyon-secrets",
+    "storage_bucket": "halcyon-secrets.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781876441407:android:544c2e0fee5d5b8587238a",
+        "android_client_info": {
+          "package_name": "com.tocaboca.tocalifeworldt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781876441407-j06rorss0095hnd9qp0cqscemdvir24f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfpv4YUwpxWLmClrUDRb35ohjCNhlNsOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781876441407-j06rorss0095hnd9qp0cqscemdvir24f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
